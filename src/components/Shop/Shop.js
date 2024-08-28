@@ -1,12 +1,14 @@
 import React from "react";
-import Navbar from "../Navbar/Navbar.js";
+import styles from "./Shop.module.css"
+import Card from "./Card/Card.js"
 
 const Shop = () => {
     return (
         <>
-        <p>AAAA</p>
-        
-
+        <h1 className={styles.titleShop}>Shop Page</h1>
+        <div className={styles.shopcontainer}>
+            <Card />
+        </div>
         </>
     
     )
