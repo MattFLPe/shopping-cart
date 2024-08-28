@@ -1,6 +1,40 @@
-.img {
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.imgCarAudi {
+    height: 283px;
+}
+
+.footer {
+    padding: 10px;
+    background-color: #333;
+    font-weight: bolder;
+    color: white;
+}
+
+.divHome {
+    padding-bottom: 20px;
+    background-color: #333;
+}
+
+.containerTitles {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.imgCar {
+    height: 30%;
+    width: 40%;
+}
+
+.imgHome {
     height: 400px;
-    width: 500px;
-    margin: 50px;
-    border-radius: 20px 20px;
+    width: 100%;
+    margin-top: 0px;
+    
 };
