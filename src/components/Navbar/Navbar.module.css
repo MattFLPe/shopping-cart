@@ -8,6 +8,21 @@
     color: white;
 }
 
+.cart {
+  margin-left: 10px;
+}
+
+.button:hover {
+  background-color: #7a7a7a;
+}
+
+.button {
+  margin-left: 5px;
+  color: black;
+  background-color: #d3d0d0;
+  padding: 10px;
+}
+
 .li {
     float: center;
     border-right:1px solid #bbb;
