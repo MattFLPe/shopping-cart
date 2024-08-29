@@ -1,8 +1,8 @@
 import React from "react"
 import styles from "./Home.module.css"
-import benz from "./assets/benz.jpg"
-import blueaudi from "./assets/blueaudi.jpg"
-import whitebenz from "./assets/whitebenz.jpg"
+import audi from "./assets/audi.jpg"
+import clio from "./assets/clio.jpg"
+import benz2 from "./assets/benz2.jpg"
 import twocars from "./assets/twocars.jpg"
 
 const Home = () => {
@@ -16,9 +16,9 @@ const Home = () => {
             <img className={styles.imgHome} src={twocars} alt="" />
         </div>
         <div className={styles.container}>
-            <img className={styles.imgCar} src={benz} alt="" />
-            <img className={styles.imgCar} src={whitebenz} alt="" />
-            <img className={styles.imgCar} src={blueaudi} alt="" />
+            <img className={styles.imgCar} src={audi} alt="" />
+            <img className={styles.imgCar} src={benz2} alt="" />
+            <img className={styles.imgCar} src={clio} alt="" />
         </div>
         <footer className={styles.footer}>Images by: Mike Birdy on Pexels.</footer>
         </>
