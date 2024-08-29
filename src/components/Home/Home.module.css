@@ -2,10 +2,8 @@
     text-align: center;
     display: flex;
     flex-direction: row;
-}
-
-.imgCarAudi {
-    height: 283px;
+    overflow: hidden;
+    position: relative;
 }
 
 .footer {
@@ -30,6 +28,13 @@
 .imgCar {
     height: 30%;
     width: 40%;
+    -webkit-transition: 0.6s ease;
+    transition: 0.6s ease;
+}
+
+.imgCar:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .imgHome {
