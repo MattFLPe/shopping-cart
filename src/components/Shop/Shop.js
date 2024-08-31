@@ -21,7 +21,8 @@ const Shop = () => {
 
         fetchItems();
     }, []);
-
+    
+    // eslint-disable-next-line
     const handleAddToCart = (item) => {
         addToCart(item);
     };
