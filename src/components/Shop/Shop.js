@@ -28,7 +28,6 @@ const Shop = () => {
 
     return (
         <>
-        <h1 className={styles.titleShop}>Shop Page</h1>
         <div className={styles.shopcontainer}>
             {items.map((item) => (
                     <Card key={item.id} item={item} onAddToCart={addToCart} />
