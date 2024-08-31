@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./Card.module.css"
-import imgGuitar from "../assets/guitar.jpg"
 
 const Card = ({ item, onAddToCart }) => {
     
@@ -8,11 +7,11 @@ const Card = ({ item, onAddToCart }) => {
         <>
         <div className={styles.card}>
             <div className={styles.itemContainer}>
-                <h1>{item.name}</h1>
+                <h6>{item.title}</h6>
                 <p>${item.price}</p>
-                <img className={styles.imgGuitar} src={item.image} alt={item.title} />
+                <img className={styles.imgItem} src={item.image} alt={item.title} />
                 <label>Quantity: <input className={styles.input} type="number" min="1" defaultValue="1" /></label>
-                <button onClick={() => onAddToCart(item)}>Add to Cart</button>
+                <button className={styles.btn} onClick={() => onAddToCart(item)}>Add to Cart</button>
             </div>
         </div>
         </>
