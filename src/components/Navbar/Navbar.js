@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 //import styles from "./Navbar.module.css"
 import styles from './Navbar.module.css'
 import { useCart } from "../../context/CartContext";
+import cart from './cart.png'
 
 const Navbar = () => {
     const { cartItemCount } = useCart();
@@ -18,8 +19,8 @@ const Navbar = () => {
                     <Link to="/Shop" className={styles.Link}>Shop</Link>
                 </li>
                 <div className={styles.cart}>
-                    <span>Cart: {cartItemCount} items</span>
-                    <Link to="/cart" className={styles.button}>Go to Cart</Link>
+                    <span><img className={styles.img} src={cart} alt=""></img>Cart: {cartItemCount} items</span>
+                    <Link to="/" className={styles.button}>Go to Cart</Link>
                 </div>
             </ul>
         </nav>
